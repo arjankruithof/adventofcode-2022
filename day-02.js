@@ -1,3 +1,4 @@
+const startTime = new Date().getTime();
 const dayNumber = '02';
 
 // load the file
@@ -82,3 +83,6 @@ for (let i = 0; i < appData.length; i += 1) {
 }
 
 console.log('part 2', score);
+
+// show runtime for fun
+console.log('runtime', `${new Date().getTime() - startTime}ms`);

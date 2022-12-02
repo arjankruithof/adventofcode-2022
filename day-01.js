@@ -1,3 +1,4 @@
+const startTime = new Date().getTime();
 const dayNumber = '01';
 
 // load the file
@@ -26,3 +27,6 @@ elvesCalories.sort(function(a, b) {
 });
 
 console.log('part2', elvesCalories[0] + elvesCalories[1] + elvesCalories[2]);
+
+// show runtime for fun
+console.warn('runtime', `${new Date().getTime() - startTime}ms`);
