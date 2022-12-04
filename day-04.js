@@ -14,7 +14,6 @@ let totalPart2 = 0;
 
 for (let i = 0; i < appData.length; i += 1) {
   const assignments = appData[i].split(',');
-  console.log('assignments', assignments);
   const assignment1 = assignments[0].split('-').map(Number);
   const assignment2 = assignments[1].split('-').map(Number);
 
