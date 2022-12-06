@@ -21,8 +21,8 @@ function getSolution(length) {
   return solution;
 }
 
-console.log(getSolution(4));
-console.log(getSolution(14));
+console.log('part 1', getSolution(4));
+console.log('part 2', getSolution(14));
 
 // show runtime for fun
 console.log('runtime', `${new Date().getTime() - startTime}ms`);
